@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tvResultado = (TextView)findViewById(R.id.tvTexto);
         btBoton = (Button)findViewById(R.id.btPrueba);
         btBoton2 = (Button)findViewById(R.id.btButton2);
-        btBoton.setOnClickListener(this);
+        btBoton.setOnClickListener(myListener);
         btBoton.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 return true;
             }
         });
-        btBoton2.setOnClickListener(myListener);
+        btBoton2.setOnClickListener(this);
     }
 
     @Override

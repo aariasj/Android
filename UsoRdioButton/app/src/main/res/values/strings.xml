@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UsoRdioButton</string>
+    <string name="et_valor1_txt">Valor 1</string>
+    <string name="et_valor2_txt">Valor 2</string>
+    <string name="rb_sumar_txt">Sumar</string>
+    <string name="rb_restar_txt">Restar</string>
+    <string name="rb_multiplicar_txt">Multiplicar</string>
+    <string name="rb_dividir_txt">Dividir</string>
+    <string name="bt_calcular_txt">Calcular</string>
+    <string name="tv_resultado_txt">Resultado</string>
+</resources>
